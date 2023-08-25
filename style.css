@@ -1,0 +1,53 @@
+body {
+  font-family: "Okra", Helvetica;
+}
+
+.time-location {
+  border-left: 1px solid #f2f2f2;
+  padding-left: 70px;
+}
+
+.time-location > h5 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.time-location > p {
+  margin: 0px;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+.search-section {
+  padding: 0px 12px;
+  border: 1px solid rgb(232, 232, 232);
+  background-color: rgb(248, 248, 248);
+  color: rgb(130, 130, 130);
+  border-radius: 12px;
+}
+
+.search-section > input {
+  border: none;
+  background-color: transparent;
+  width: 40vw;
+  height: 40px;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+}
+
+.my-cart {
+  background-color: #0d831e !important;
+  cursor: pointer;
+  font-size: 14px !important;
+}
+
+.my-categories {
+  width: 92%;
+}

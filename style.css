@@ -205,3 +205,28 @@ td{
    text-align: justify;
    margin-top: 20px;
   }
+
+
+  @media screen and (max-width:768px){
+    nav,.row-2,.row-1{
+        flex-direction: column !important;
+    }
+    .hero-section>img{
+        display: none !important;
+    }
+    .nav-btns, .row-2>p, .search-section{
+        width: 90%;
+    }
+    .row-1>div,.my-container{
+        margin-top: 20px;
+    }
+    .row-1>div>h5{
+        text-align: center;
+    }
+    td{
+        text-align: center;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+}

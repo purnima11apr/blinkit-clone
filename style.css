@@ -5,6 +5,7 @@ body {
 .navigation{
   position: sticky !important;
   top:0 !important;
+  z-index: 100;
 }
 
 .time-location {
@@ -84,6 +85,7 @@ body {
 .category-section-row{
   width: 100%;
   overflow-x: scroll;
+  padding-bottom: 40px;
 }
 
 .item-card{
@@ -103,9 +105,12 @@ body {
 }
 
 .product-name{
-  font-weight:600 ;
+  font-weight:400 ;
   font-size: 13px;
   color:rgb(31,31,31);
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .product-weight{
@@ -120,26 +125,83 @@ body {
   color:rgb(31,31,31);
 }
 
-span{
-  color:#666666;
-   font-size: small;
+
+
+
+.my-footer{
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  padding: 10px;
+
+}
+.row-1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
-.off{
+
+.useful-links{
+  flex: 2;
   
-  color: rgb(255, 255, 255);
+}
+
+.categories{
+  flex:3;
+}
+td{
+  
+  color:#666666;
+  font-size:14px;
+  padding: 3px 40px;
+
+}
+.download-app>p{
+  color:#666666;
   font-weight: 600;
-  font-size: 8px;
-  text-align: center;
-  position: absolute;
-  
+  font-size: 14px;
+  margin : 16px;
 }
-.offer {
-  
-  
+.btns{
+  background-color: #213b50;
+  color:white;
+  border-radius: 6px;
+  margin:10px;
+  border: none;
+  padding: 4px;
+}
+.row-2{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  top: 0;
-  position: absolute;
- 
+  padding: 10px;
+  margin-top: 30px;
 }
+.row-2>p{
+  width: 30%;
+  color:#666666;
+   font-size: 13px;
+   text-align: justify;
+}
+.icons{
+  display: flex;
+}
+.icon-btn{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-inline: 10px;
+}
+.row-3{
+  color:#666666;
+   font-size: 15px;
+   text-align: justify;
+   margin-top: 20px;
+  }

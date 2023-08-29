@@ -2,9 +2,9 @@ body {
   font-family: "Okra", Helvetica;
 }
 
-.navigation{
+.navigation {
   position: sticky !important;
-  top:0 !important;
+  top: 0 !important;
   z-index: 100;
 }
 
@@ -47,22 +47,21 @@ body {
   font-size: 14px;
   color: rgb(153, 153, 153);
 }
-.my-container{
-  overflow-x : scroll;
-  width:90%;
-  margin:auto;
+.my-container {
+  overflow-x: scroll;
+  width: 90%;
+  margin: auto;
 }
 
-.item-list{
+.item-list {
   white-space: nowrap;
 }
 
-.item-list>img{
-
+.item-list > img {
   padding-inline: 8px;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -76,118 +75,107 @@ body {
   width: 92%;
 }
 
-.categories-section{
+.categories-section {
   width: 90%;
   margin: auto;
-
 }
 
-.category-section-row{
+.category-section-row {
   width: 100%;
   overflow-x: scroll;
   padding-bottom: 40px;
 }
 
-.item-card{
-  width:179px;
+.item-card {
+  width: 179px;
   margin-inline: 10px;
- 
 }
 
-.time{
+.time {
   border-radius: 4px;
-  background-color: rgb(248,248,248);
+  background-color: rgb(248, 248, 248);
   padding: 4px 4px;
   font-weight: 700;
   font-size: 9px;
-  color:rgb(54,54,54);
-  width:fit-content;
+  color: rgb(54, 54, 54);
+  width: fit-content;
 }
 
-.product-name{
-  font-weight:400 ;
+.product-name {
+  font-weight: 400;
   font-size: 13px;
-  color:rgb(31,31,31);
+  color: rgb(31, 31, 31);
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
 }
 
-.product-weight{
-  color:#666666;
+.product-weight {
+  color: #666666;
   font-size: 9px;
 }
 
-.price{
-
+.price {
   font-weight: 600;
   font-size: 12px;
-  color:rgb(31,31,31);
+  color: rgb(31, 31, 31);
 }
 
-
-
-
-.my-footer{
+.my-footer {
   width: 90%;
   margin: auto;
   text-align: justify;
   padding: 10px;
-
 }
-.row-1{
+.row-1 {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
 
-
-.useful-links{
+.useful-links {
   flex: 2;
-  
 }
 
-.categories{
-  flex:3;
+.categories {
+  flex: 3;
 }
-td{
-  
-  color:#666666;
-  font-size:14px;
+td {
+  color: #666666;
+  font-size: 14px;
   padding: 3px 40px;
-
 }
-.download-app>p{
-  color:#666666;
+.download-app > p {
+  color: #666666;
   font-weight: 600;
   font-size: 14px;
-  margin : 16px;
+  margin: 16px;
 }
-.btns{
+.btns {
   background-color: #213b50;
-  color:white;
+  color: white;
   border-radius: 6px;
-  margin:10px;
+  margin: 10px;
   border: none;
   padding: 4px;
 }
-.row-2{
+.row-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   margin-top: 30px;
 }
-.row-2>p{
+.row-2 > p {
   width: 30%;
-  color:#666666;
-   font-size: 13px;
-   text-align: justify;
+  color: #666666;
+  font-size: 13px;
+  text-align: justify;
 }
-.icons{
+.icons {
   display: flex;
 }
-.icon-btn{
+.icon-btn {
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -199,34 +187,44 @@ td{
   font-size: 20px;
   margin-inline: 10px;
 }
-.row-3{
-  color:#666666;
-   font-size: 15px;
-   text-align: justify;
-   margin-top: 20px;
+.row-3 {
+  color: #666666;
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  nav,
+  .row-2,
+  .row-1 {
+    flex-direction: column !important;
   }
-
-
-  @media screen and (max-width:768px){
-    nav,.row-2,.row-1{
-        flex-direction: column !important;
-    }
-    .hero-section>img{
-        display: none !important;
-    }
-    .nav-btns, .row-2>p, .search-section{
-        width: 90%;
-    }
-    .row-1>div,.my-container{
-        margin-top: 20px;
-    }
-    .row-1>div>h5{
-        text-align: center;
-    }
-    td{
-        text-align: center;
-    }
-    .icons{
-        margin-top: 10px;
-    }
+  .hero-section > img {
+    display: none !important;
+  }
+  .nav-btns,
+  .row-2 > p,
+  .search-section {
+    width: 90%;
+  }
+  .row-1 > div,
+  .my-container {
+    margin-top: 20px;
+  }
+  .row-1 > div > h5 {
+    text-align: center;
+  }
+  td {
+    text-align: center;
+  }
+  .icons {
+    margin-top: 10px;
+  }
 }
